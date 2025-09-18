@@ -32,7 +32,9 @@ const sidebars = {
     'abuse-report',
     'firststeps-register',
     'firststeps-register2',
-    'preorders'
+    'preorders',
+    '7d2d-commands',
+    '7d2d-becomeadmin'
   ]
   
 };

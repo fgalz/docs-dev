@@ -52,7 +52,7 @@ jobs:
           
           git add --all .
           git commit -m "Auto-translate docs"
-          git push
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
 
       # Immer: Build prüfen
       - name: Build Docusaurus

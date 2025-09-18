@@ -50,12 +50,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          echo "Git status before staging:"
-          git status --untracked-files=all
-          # Alle neuen und geänderten Übersetzungen ins Staging nehmen
+          # Änderungen und neue Dateien im i18n/-Ordner aufnehmen
           git add -A i18n/
-          echo "Git status after staging:"
-          git status --untracked-files=all
           if ! git diff --cached --quiet; then
             git commit -m "Auto-translate docs"
             git push origin HEAD:${GITHUB_REF#refs/heads/}

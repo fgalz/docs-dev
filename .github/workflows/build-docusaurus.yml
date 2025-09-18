@@ -42,7 +42,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add i18n/
           git diff --staged --quiet || git commit -m "Auto-translate markdown files"
-          git push
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
 
       - name: Build Docusaurus
         run: npm run build

@@ -87,30 +87,37 @@ async function main() {
     for (const lang of TARGET_LANGUAGES) {
       const cacheKey = getCacheKey(content, lang);
 
-      if (cache[cacheKey]) {
+      // Zielpfad bestimmen
+      const outputFile = path.join(
+        'i18n',
+        lang,
+        'docusaurus-plugin-content-docs/current',
+        relPath
+      );
+
+      const alreadyExists = fs.existsSync(outputFile);
+
+      if (cache[cacheKey] && alreadyExists) {
         console.log(`Using cached translation for ${file} -> ${lang}`);
         continue;
       }
 
-      console.log(`Translating ${file} to ${lang}...`);
-
       try {
-        const translatedContent = await translateContent(content, lang);
-        cache[cacheKey] = translatedContent;
-
-        // Zielpfad bauen
-        const outputFile = path.join(
-          'i18n',
-          lang,
-          'docusaurus-plugin-content-docs/current',
-          relPath
-        );
+        let translatedContent;
+        if (cache[cacheKey]) {
+          console.log(`Writing cached translation for ${file} -> ${lang}`);
+          translatedContent = cache[cacheKey];
+        } else {
+          console.log(`Translating ${file} to ${lang}...`);
+          translatedContent = await translateContent(content, lang);
+          cache[cacheKey] = translatedContent;
+          // Rate limiting
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
 
         fs.mkdirSync(path.dirname(outputFile), { recursive: true });
         fs.writeFileSync(outputFile, translatedContent);
 
-        // Rate limiting
-        await new Promise(resolve => setTimeout(resolve, 1000));
       } catch (error) {
         console.error(`Error translating ${file} to ${lang}:`, error);
       }

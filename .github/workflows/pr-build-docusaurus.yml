@@ -49,6 +49,11 @@ jobs:
           git diff --staged --quiet || git commit -m "Auto-translate docs"
           git push origin HEAD:${GITHUB_REF#refs/heads/}
 
+      - name: Debug new files
+        run: |
+          echo "Unstaged changes:"
+          git status --untracked-files=all --short
+
       # Immer: Build prüfen
       - name: Build Docusaurus
         run: npm run build

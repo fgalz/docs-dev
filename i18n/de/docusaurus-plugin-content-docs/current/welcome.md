@@ -10,6 +10,6 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Einführung 
 
-Test 123
+Test 1234
 
-Willkommen zur umfassenden Dokumentation von ZAP-Hosting, die als zentrale Anlaufstelle für alles rund um unsere Produkte dient - von Gameservern, vRoot Servern und dedizierten Servern bis hin zu Domain & Webspace sowie Voicebot & Voiceserver. Hier finden Sie detaillierte Anleitungen, Tipps und Tricks, die Ihnen helfen
+Willkommen zur umfassenden Dokumentation von ZAP-Hosting, die als zentrale Anlaufstelle für alles rund um unsere Produkte dient - von Spiele-Servern, vRoot-Servern und dedizierten Servern bis hin zu Domain & Webspace sowie Voicebot & Voice-Server. Hier finden Sie detaillierte Anleitungen, Tipps und

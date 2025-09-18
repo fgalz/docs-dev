@@ -1,4 +1,4 @@
-name: PR Build Docusaurus
+name: Build Docusaurus
 
 on: 
   pull_request:

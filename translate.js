@@ -61,7 +61,7 @@ async function translateContent(content, targetLang) {
     messages: [
       {
         role: 'system',
-        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate the actual text content.`
+        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate the actual text content. Do not translate the sidebar id of the docusaurus meta data.`
       },
       {
         role: 'user',

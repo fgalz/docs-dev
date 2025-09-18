@@ -115,40 +115,6 @@ const config = {
         fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
         toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
         redirects: [
-          // /docs/oldDoc -> /docs/newDoc
-          {
-            to: '/docs/contribution-guides', from: '/docs/contribution-submission',
-          },
-          {
-            to: '/docs/contribution-guides-guidelines', from: '/docs/contribution-guidelines',
-          },
-          {
-            to: '/docs/ets2-server-modding', from: '/docs/trucksim-dlc',
-          },
-          {
-            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-changemoneyicon',
-          },
-          {
-            to: '/docs/fivem-dashboard', from: '/docs/fivem-vrp-removespeedo',
-          },
-          {
-            to: '/docs/fivem-dashboard', from: '/docs/altv-firststeps-dashboard',
-          },
-          {
-            to: '/docs/fivem-dashboard', from: '/docs/altv-installresources',
-          },
-          {
-            to: '/docs/fivem-dashboard', from: '/docs/ragemp-firststeps-dashboard',
-          },
-          {
-            to: '/docs/fivem-dashboard', from: '/docs/ragemp-installpackages',
-          },
-          {
-            to: '/docs/minecraft-forge-fabric-add-mods-modpacks', from: '/docs/minecraft_forge_add_mods',
-          },
-          {
-            to: '/docs/vserver-dedicated-comparison', from: '/docs/vserver-root-difference',
-          }
         ],
       },
     ],
@@ -208,36 +174,6 @@ const config = {
           sidebarId: 'guidesSidebar',
           position: 'left',
           label: 'General',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'gameserverSidebar',
-          position: 'left',
-          label: 'Gameserver',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'vpsrootSidebar',
-          position: 'left',
-          label: 'VPS',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'dedicatedserverSidebar',
-          position: 'left',
-          label: 'Dedicated Server',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'domainwebspaceSidebar',
-          position: 'left',
-          label: 'Domain & Webspace',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'voiceserverbotSidebar',
-          position: 'left',
-          label: 'Voicebot & Voiceserver',
         },
         {
           type: 'html',

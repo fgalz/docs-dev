@@ -45,15 +45,12 @@ jobs:
 
       # Nur bei Push: Änderungen committen und zurückpushen
       - name: Commit translations
-        if: github.event_name == 'push'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          git add --all .
-          git diff --exit-code && git commit -am "update i18n" || true
-          git push
-
+          git add --all
+          git diff --staged --quiet || git commit -m "Auto-translate markdown files"
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
 
       # Immer: Build prüfen
       - name: Build Docusaurus

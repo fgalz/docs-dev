@@ -24,17 +24,20 @@ Los comandos más importantes:
 
 | Comando    | Descripción                                                 |
 | ----------------- | ------------------------------------------------------------ |
-| giveself [id del artículo] [nivel de calidad 1-6] | Te añade un artículo, con el nivel de cantidad elegido |
+| giveself [item id] [quality level 1-6] | Añade un artículo a tu inventario, con el nivel de calidad elegido |
 | debugmenu on/off | Habilita el Menú de Depuración, se puede abrir presionando G |
-| giveselfxp [cantidad] | Añade puntos de experiencia a tu personaje |
+| giveselfxp [amount] | Añade puntos de experiencia a tu personaje |
 | creativemenu on/off | Habilita el Menú Creativo, se puede abrir presionando U |
 | spawnsupplycrate | Genera una caja de suministros en tu ubicación |
 | admin [add] [remove] [list] | Este comando se utiliza para añadir/eliminar administradores |
-| kick [nombre del jugador] [razón] | Expulsa a un jugador del servidor |
-| tele [Jugador A] [Jugador B] | Teletransporta al Jugador A al Jugador B |
-| weather | Cambia las condiciones del clima |
+| kick [playername] [grund] | Expulsa a un jugador del servidor |
+| tele [Player A] [Player B] | Teletransporta al Jugador A al Jugador B |
+| weather | Cambia las condiciones meteorológicas |
 | help | Muestra todos los comandos disponibles |
 
 [más comandos](https://commands.gg/7dtd)
 
 <InlineVoucher />
+
+
+Esto es una prueba

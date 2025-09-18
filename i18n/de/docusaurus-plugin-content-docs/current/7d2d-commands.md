@@ -12,7 +12,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 <InlineVoucher />
 
 ## Die Konsole
-Um Befehle auf Ihrem Server auszuführen, müssen Sie ein Admin sein. Wenn Sie nicht wissen, wie Sie Admin werden können, schauen Sie bitte in unserem Leitfaden nach.
+Um Befehle auf Ihrem Server auszuführen, müssen Sie ein Admin sein. Wenn Sie nicht wissen, wie Sie ein Admin werden können, schauen Sie bitte in unseren Leitfaden.
 Alle Befehle müssen über die Entwicklerkonsole ausgeführt werden. Sie können diese öffnen, indem Sie `F1` drücken
 
 Die Konsole sieht so aus:
@@ -28,7 +28,7 @@ Die wichtigsten Befehle:
 | debugmenu on/off | Aktiviert das Debug-Menü, kann durch Drücken von G geöffnet werden |
 | giveselfxp [amount] | Fügt Ihrem Charakter XP-Punkte hinzu |
 | creativemenu on/off | Aktiviert das Kreativmenü, kann durch Drücken von U geöffnet werden |
-| spawnsupplycrate | Spawnt eine Versorgungskiste an Ihrer Position |
+| spawnsupplycrate | Spawnt eine Versorgungskiste an Ihrem Standort |
 | admin [add] [remove] [list] | Dieser Befehl wird verwendet, um Admins hinzuzufügen/zu entfernen |
 | kick [playername] [grund] | Kickt einen Spieler vom Server |
 | tele [Player A] [Player B] | Teleportiert Spieler A zu Spieler B |
@@ -38,3 +38,6 @@ Die wichtigsten Befehle:
 [mehr Befehle](https://commands.gg/7dtd)
 
 <InlineVoucher />
+
+
+Dies ist ein Test

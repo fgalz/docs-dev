@@ -14,7 +14,7 @@ Prueba 1234
 
 Bienvenido a la documentación integral de ZAP-Hosting, que sirve como el centro principal para todo lo relacionado con nuestros productos: desde servidores de juegos, servidores vRoot y servidores dedicados hasta dominios y espacio web, así como voicebot y servidor de voz. Aquí encontrarás instrucciones detalladas, consejos y trucos para ayudarte a sacar el máximo provecho de tus productos (servicios) y llevar a cabo tus proyectos con éxito.
 
-Nuestro objetivo es hacer que el conocimiento sea accesible y comprensible. Por eso, hemos diseñado nuestras guías para que sean fácilmente comprensibles para todos, independientemente de los conocimientos técnicos previos. Ya sea que estés comenzando a configurar tu primer servidor de juegos, adentrándote en el mundo de los servidores dedicados, registrando tu primer dominio o configurando tu servidor de voz, nuestras guías están pensadas para ofrecerte un punto de partida fácil y claro.
+Nuestro objetivo es hacer que el conocimiento sea accesible y comprensible. Por eso, hemos diseñado nuestras guías para que sean fácilmente comprensibles para todos, independientemente de los conocimientos técnicos previos. Ya sea que estés comenzando con la configuración de tu primer servidor de juegos, adentrándote en el mundo de los servidores dedicados, registrando tu primer dominio o configurando tu servidor de voz, nuestras guías están pensadas para ofrecerte un punto de partida fácil y claro.
 
 Cubrimos una amplia gama de temas y actualizamos regularmente nuestro contenido para asegurarnos de que siempre estés al día y puedas aplicar las mejores prácticas. Desde guías básicas de configuración hasta técnicas avanzadas de configuración.
 

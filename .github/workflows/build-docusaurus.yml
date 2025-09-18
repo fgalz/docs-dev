@@ -1,7 +1,8 @@
-name: Build Docusaurus
+name: PR Build Docusaurus
 
 on:
   push:
+    branches: ["master", "main"]
     paths:
       - 'docs/**/*.md'
 
@@ -48,11 +49,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
-          git fetch origin ${GITHUB_REF#refs/heads/}
-          git rebase origin/${GITHUB_REF#refs/heads/} || git merge origin/${GITHUB_REF#refs/heads/}
-          git add -A
-          git diff --staged --quiet || git commit -m "Auto-translate docs"
+          
+          git add --all .
+          git commit -m "Auto-translate docs"
           git push origin HEAD:${GITHUB_REF#refs/heads/}
 
       # Immer: Build prüfen

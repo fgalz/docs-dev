@@ -23,6 +23,10 @@ Pre-ordered servers will be set up fully automatically once the product is ready
 
 
 
+This is a new test.
+
+
+
 ## Payment and runtime
 
 The 1st term of a pre-ordered product must be paid directly at the time of ordering. The 1st term begins with the provision of the server. The 2nd payment (in case of a contract or the extension of a prepaid server) is due at the end of the 1st term. A preordered server causes no further costs as long as it is not yet set up.

@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build-docusaurus:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4

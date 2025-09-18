@@ -2,11 +2,13 @@ name: Build Docusaurus
 
 on:
   push:
+    branches: ["master", "main"]
     paths:
       - 'docs/**/*.md'
-  pull_request:
-    paths:
-      - 'docs/**/*.md'
+
+permissions:
+  checks: write
+  contents: write   
 
 jobs:
   build:

@@ -33,8 +33,10 @@ const sidebars = {
     'firststeps-register',
     'firststeps-register2',
     'preorders',
-    '7d2d-commands',
-    '7d2d-becomeadmin'
+    'necesse-firststeps-connect',
+    'necesse-troubleshooting-common-issues',
+    'necesse-firststeps-dashboard'
+
   ]
   
 };

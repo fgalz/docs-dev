@@ -2,7 +2,6 @@ name: PR Build Docusaurus
 
 on:
   pull_request:
-    branches: ["master", "main"]
     paths:
       - 'docs/**/*.md'
 
@@ -46,13 +45,17 @@ jobs:
 
       # Nur bei Push: Änderungen committen und zurückpushen
       - name: Commit translations
-        if: github.event_name == 'push'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git diff --staged --quiet || git commit -m "Auto-translate docs"
-          git push origin HEAD:${GITHUB_REF#refs/heads/}
+          # Alle Änderungen im i18n/-Ordner aufnehmen (neu + geändert)
+          git add i18n/
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-translate docs"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          else
+            echo "No translation changes to commit"
+          fi
 
       # Immer: Build prüfen
       - name: Build Docusaurus

@@ -5,7 +5,7 @@ description: Información sobre cómo registrar una cuenta de usuario con ZAP-Ho
 sidebar_label: Registro
 ---
 
-## 🔐 ¡¡¡¡Regístrate ahora con ZAP-Hosting!!!!
+## 🔐 ¡Regístrate ahora en ZAP-Hosting!
 ¡Es súper fácil! Visita nuestro sitio web y ve a la página de inicio. Allí encontrarás una pantalla de inicio de sesión donde debes ingresar tu nombre de usuario, dirección de correo electrónico y contraseña. ¡Hola!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)

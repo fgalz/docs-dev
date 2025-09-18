@@ -11,7 +11,7 @@ sidebar_label: Registro
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 
 :::info
-Después del registro puedes iniciar sesión inmediatamente, pero deberías confirmar el correo electrónico de activación para poder utilizar todas las funciones.
+Después del registro puedes iniciar sesión inmediatamente, pero deberías confirmar el correo electrónico de activación para poder utilizar el alcance completo de funciones.
 :::
 
-Hola, mi nombre es Florian. ¿Conseguiste mi nombre, quién soy yo?
+¡Hola, mi nombre es Florian! Consigue mi nombre, ¿quién soy yo?

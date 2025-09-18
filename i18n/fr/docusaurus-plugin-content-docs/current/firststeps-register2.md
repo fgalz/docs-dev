@@ -6,7 +6,7 @@ sidebar_label: Inscription
 ---
 
 ## 🔐 Inscrivez-vous maintenant chez ZAP-Hosting !!!!!
-C'est super facile ! Visitez notre site web et allez à la page d'accueil. Là, vous trouverez un écran de connexion où vous devez entrer votre nom d'utilisateur, votre adresse e-mail et votre mot de passe.
+C'est super facile ! Visitez notre site web et allez à la page d'accueil. Là, vous trouverez un écran de connexion où vous devez entrer votre nom d'utilisateur, adresse e-mail et mot de passe.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 

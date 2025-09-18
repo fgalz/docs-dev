@@ -29,8 +29,8 @@ jobs:
           key: translations-${{ hashFiles('docs/**/*.md') }}
           restore-keys: translations-
 
-      # - name: Install dependencies
-      #   run: npm install
+      - name: Install dependencies
+        run: npm install
 
       # Übersetzungen erzeugen
       - name: Translate changed docs

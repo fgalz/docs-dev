@@ -57,7 +57,7 @@ function getAllMarkdownFiles() {
 // Übersetzung
 async function translateContent(content, targetLang) {
   const response = await openai.chat.completions.create({
-    model: 'gpt-4',
+    model: 'gpt-4.1',
     messages: [
       {
         role: 'system',

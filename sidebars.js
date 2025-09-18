@@ -29,6 +29,7 @@ const sidebars = {
       defaultStyle: true,
     },
     'welcome',
+    'abuse-report',
   ]
   
 };

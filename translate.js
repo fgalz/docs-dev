@@ -61,7 +61,7 @@ async function translateContent(content, targetLang) {
     messages: [
       {
         role: 'system',
-        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate the actual text content.`
+        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate the actual text content. Do not translate the sidebar id of the metadata`
       },
       {
         role: 'user',
@@ -87,37 +87,30 @@ async function main() {
     for (const lang of TARGET_LANGUAGES) {
       const cacheKey = getCacheKey(content, lang);
 
-      // Zielpfad für Übersetzungen
-      const outputFile = path.join(
-        'i18n',
-        lang,
-        'docusaurus-plugin-content-docs/current',
-        relPath
-      );
-
-      const needsWrite = !fs.existsSync(outputFile);
-
-      if (cache[cacheKey] && !needsWrite) {
+      if (cache[cacheKey]) {
         console.log(`Using cached translation for ${file} -> ${lang}`);
         continue;
       }
 
+      console.log(`Translating ${file} to ${lang}...`);
+
       try {
-        let translatedContent;
-        if (cache[cacheKey]) {
-          console.log(`Writing cached translation for ${file} -> ${lang}`);
-          translatedContent = cache[cacheKey];
-        } else {
-          console.log(`Translating ${file} to ${lang}...`);
-          translatedContent = await translateContent(content, lang);
-          cache[cacheKey] = translatedContent;
-          // Rate limiting
-          await new Promise(resolve => setTimeout(resolve, 1000));
-        }
+        const translatedContent = await translateContent(content, lang);
+        cache[cacheKey] = translatedContent;
+
+        // Zielpfad bauen
+        const outputFile = path.join(
+          'i18n',
+          lang,
+          'docusaurus-plugin-content-docs/current',
+          relPath
+        );
 
         fs.mkdirSync(path.dirname(outputFile), { recursive: true });
         fs.writeFileSync(outputFile, translatedContent);
 
+        // Rate limiting
+        await new Promise(resolve => setTimeout(resolve, 1000));
       } catch (error) {
         console.error(`Error translating ${file} to ${lang}:`, error);
       }

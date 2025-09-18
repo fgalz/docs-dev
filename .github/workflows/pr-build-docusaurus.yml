@@ -1,12 +1,12 @@
 name: PR Build Docusaurus
 
-on: 
+on:
+  push:
+    paths:
+      - 'docs/**/*.md'
   pull_request:
-    branches: ["master", "main"]
-
-permissions:
-  checks: write
-  contents: write
+    paths:
+      - 'docs/**/*.md'
 
 jobs:
   build:
@@ -31,20 +31,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Translate changed files
+      # Übersetzungen erzeugen
+      - name: Translate changed docs
         run: node translate.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
+      # Nur bei Push: Änderungen committen und zurückpushen
       - name: Commit translations
+        if: github.event_name == 'push'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add i18n/
-          git diff --staged --quiet || git commit -m "Auto-translate markdown files"
-          git push
+          git diff --staged --quiet || git commit -m "Auto-translate docs"
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
 
+      # Immer: Build prüfen
       - name: Build Docusaurus
         run: npm run build
-
-        

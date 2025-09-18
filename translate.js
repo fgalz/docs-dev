@@ -57,11 +57,11 @@ function getAllMarkdownFiles() {
 // Übersetzung
 async function translateContent(content, targetLang) {
   const response = await openai.chat.completions.create({
-    model: 'gpt-4.1',
+    model: 'gpt-4',
     messages: [
       {
         role: 'system',
-        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate the actual text content. Do not translate the sidebar id of the docusaurus meta data.`
+        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate the actual text content.`
       },
       {
         role: 'user',
@@ -87,7 +87,7 @@ async function main() {
     for (const lang of TARGET_LANGUAGES) {
       const cacheKey = getCacheKey(content, lang);
 
-      // Zielpfad bestimmen
+      // Zielpfad für Übersetzungen
       const outputFile = path.join(
         'i18n',
         lang,
@@ -95,9 +95,9 @@ async function main() {
         relPath
       );
 
-      const alreadyExists = fs.existsSync(outputFile);
+      const needsWrite = !fs.existsSync(outputFile);
 
-      if (cache[cacheKey] && alreadyExists) {
+      if (cache[cacheKey] && !needsWrite) {
         console.log(`Using cached translation for ${file} -> ${lang}`);
         continue;
       }

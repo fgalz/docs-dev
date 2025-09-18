@@ -30,6 +30,7 @@ const sidebars = {
     },
     'welcome',
     'abuse-report',
+    'firststeps-register',
   ]
   
 };

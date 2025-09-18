@@ -1,5 +1,5 @@
 ---
-id: willkommen
+id: welcome
 title: Willkommen zur ZAP-Hosting Dokumentation!
 sidebar_label: Willkommen!
 ---

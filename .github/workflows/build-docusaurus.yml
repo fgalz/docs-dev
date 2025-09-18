@@ -52,7 +52,9 @@ jobs:
           git config --local user.name "GitHub Action"
           git add i18n/
           git diff --staged --quiet || git commit -m "Auto-translate docs"
-          git push origin HEAD:${GITHUB_REF#refs/heads/}
+          git add --all .
+          git diff --exit-code && git commit -am "update i18n" || true
+          git push
 
       # Immer: Build prüfen
       - name: Build Docusaurus

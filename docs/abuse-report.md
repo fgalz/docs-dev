@@ -13,7 +13,7 @@ The internet enables value. Abuse harms users and services. Our goal is to detec
 
 ## Type of Abuse
 
-Abuse can appear in different ways. Report any case that fits within or is close to the categories below:
+Hello, my name is! Abuse can appear in different ways. Report any case that fits within or is close to the categories below:
 
 <details>
   <summary>Spam</summary>

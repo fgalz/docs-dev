@@ -1,129 +1,129 @@
 ---
 id: abuse-report
-title: "Signaler un abus et un contenu illégal - Tout ce que vous devez savoir !"
-description: "Comment signaler un abus et un contenu illégal à ZAP-Hosting - Documentation ZAP-Hosting.com"
+title: "Signaler un abus et un contenu illégal - Tout ce que vous devez savoir!"
+description: "Comment signaler un abus et un contenu illégal à ZAP-Hosting - Documentation de ZAP-Hosting.com"
 sidebar_label: Signaler un abus
 ---
 
 ## Introduction
 
-Internet crée de la valeur. L’abus nuit aux utilisateurs et aux services. Notre objectif est de détecter et d’arrêter les incidents rapidement. Vous pouvez signaler tout abus présumé à notre équipe Abuse. Nous examinons chaque signalement, préservons les preuves, agissons conformément à la loi applicable et à nos politiques, et informons les autorités compétentes si nécessaire.
+Internet permet de créer de la valeur. Les abus nuisent aux utilisateurs et aux services. Notre objectif est de détecter et d'arrêter rapidement les incidents. Vous pouvez signaler tout abus suspect à notre équipe d'abus. Nous examinons chaque rapport, préservons les preuves, agissons en vertu de la loi applicable et de nos politiques, et informons les autorités compétentes lorsque cela est nécessaire.
 
-## Types d’abus
+## Type d'abus
 
-L’abus peut prendre différentes formes. Signalez tout cas qui correspond ou s’approche des catégories ci-dessous :
+Bonjour, mon nom est! L'abus peut se manifester de différentes manières. Signalez tout cas qui correspond ou est proche des catégories ci-dessous :
 
 <details>
   <summary>Spam</summary>
 
-Messages non sollicités ou en masse envoyés via nos systèmes ou contenu hébergé déclenchant des filtres anti-spam. Variantes : spam par e-mail, spam de commentaires, spam de liens SEO, création automatisée de comptes. Fournissez des exemples de messages, en-têtes, IP d’expéditeur et schémas d’envoi.
+Messages non sollicités ou en vrac envoyés par nos systèmes ou contenu hébergé qui déclenche des filtres de spam. Les variantes incluent le spam par e-mail, le spam de commentaires, le spam de liens SEO et la création automatisée de comptes. Fournissez des exemples de messages, des en-têtes, des adresses IP d'expéditeurs et des modèles d'envoi.
 
 </details>
 
 <details>
   <summary>Attaques et DDoS</summary>
 
-Trafic hostile visant à perturber les services ou sonder les systèmes. Formes courantes : floods volumétriques L3 L4, floods HTTP couche 7, amplification, tentatives de connexion par force brute, scans de ports agressifs. Indicateurs : pics de PPS ou Mbps, taux élevés de 4xx/5xx, échecs d’authentification répétés depuis des sources tournantes.
+Trafic hostile destiné à perturber les services ou à sonder les systèmes. Les formes courantes sont les inondations volumétriques L3 L4, les inondations HTTP de couche 7, l'amplification, les tentatives de connexion par force brute et les scans de ports agressifs. Les indicateurs comprennent des pics en PPS ou Mbps, des taux 4xx 5xx élevés et des échecs d'authentification répétés à partir de sources rotatives.
 
 </details>
 
 <details>
-  <summary>Violations de droits d’auteur et de marques</summary>
+  <summary>Violations du droit d'auteur et des marques déposées</summary>
 
-Distribution non autorisée d’œuvres protégées ou usage abusif de marques déposées. Variantes : miroirs de piratage, téléchargements crackés, usurpation de marque, domaines trompeurs. Fournissez l’œuvre, le titulaire des droits, l’emplacement exact et le statut d’autorisation.
+Distribution non autorisée d'œuvres protégées ou mauvaise utilisation de marques déposées. Les variantes incluent les miroirs de piratage, les téléchargements craqués, l'usurpation de marque et les domaines trompeurs. Fournissez l'œuvre, le titulaire des droits, l'emplacement exact et le statut d'autorisation.
 
 </details>
 
 <details>
-  <summary>Phishing</summary>
+  <summary>Hameçonnage</summary>
 
-Contenu conçu pour collecter des identifiants ou des données de paiement en imitant des marques de confiance. Variantes : faux portails de connexion, arnaques à la facture, leurres QR ou pièces jointes, fatigue MFA. Précisez la marque ciblée, les points de collecte et les différences avec le site légitime.
+Contenu conçu pour récolter des identifiants ou des données de paiement en imitant des marques de confiance. Les variantes incluent les faux portails de connexion, les arnaques aux factures, les leurres QR ou pièces jointes, et la fatigue MFA. Précisez la marque cible, les points de capture et comment la page diffère du site légitime.
 
 </details>
 
 <details>
   <summary>RGPD</summary>
 
-Traitement, exposition ou fuite non autorisée de données personnelles. Cas typiques : index ouverts, buckets mal configurés, scraping sans base légale, journaux publics. Décrivez les catégories de données, l’étendue, les personnes concernées et la cause de l’exposition.
+Traitement non autorisé, exposition ou fuite de données personnelles. Les cas typiques incluent les index ouverts, les seaux mal configurés, le scraping sans base légale et les journaux publics. Décrivez les catégories de données, la portée, les sujets affectés et la cause de l'exposition.
 
 </details>
 
 <details>
   <summary>CSAM/SAM</summary>
 
-Tout contenu représentant l’exploitation sexuelle d’êtres humains. Tolérance zéro.
+Tout matériel dépeignant l'exploitation sexuelle des humains. Tolérance zéro.
 
 </details>
 
 <details>
   <summary>Contenu illégal</summary>
 
-Contenu enfreignant la loi applicable, tel que propagande extrémiste, menaces, discours de haine, incitation à la violence ou diffamation. Variantes : doxxing, menaces explicites, contenus interdits par la juridiction. Fournissez l’emplacement exact et, si connu, la base légale concernée.
+Contenu qui viole la loi applicable telle que la propagande extrémiste, les menaces, les discours de haine, l'incitation à la violence ou la diffamation. Les variantes incluent le doxxing, les menaces explicites et les matériaux interdits par juridiction. Fournissez l'emplacement exact et, si connu, le fondement juridique impliqué.
 
 </details>
 
 <details>
   <summary>Autre</summary>
 
-Abus ne rentrant pas dans les catégories ci-dessus mais nuisant tout de même aux utilisateurs ou systèmes. Exemples : hébergement de malwares, C2 de botnet, fraude, minage de cryptomonnaie non autorisé. Partagez les hashes, URLs, schémas C2, anomalies d’utilisation des ressources.
+Abus qui ne correspond pas aux catégories ci-dessus mais qui nuit toujours aux utilisateurs ou aux systèmes. Les exemples incluent l'hébergement de logiciels malveillants, le C2 de botnet, la fraude et le cryptominage non autorisé. Partagez les hachages, les URL, les modèles C2 et les anomalies d'utilisation des ressources.
 
 </details>
 
 ## Informations requises
 
-Pour garantir un signalement complet et exploitable, veuillez fournir des détails permettant d’identifier la ressource, de vérifier l’incident et de prendre les mesures appropriées, notamment :
-- Emplacement : URL, IP, port, nom d’hôte, chemin de fichier, hash
+Pour garantir un rapport complet et exploitable, veuillez fournir des détails complets qui nous permettent d'identifier la ressource, de vérifier l'incident et de prendre les mesures appropriées, y compris les suivantes :
+- Emplacement. URL, IP, port, nom d'hôte, chemin de fichier, hachage
 - Horodatages en UTC au format AAAA-MM-JJTHH:MM:SSZ
-- Description : ce qui s’est passé, comment détecté, impact observé
-- Preuves : captures d’écran, journaux texte, e-mail complet avec en-têtes au format EML, court PCAP, NetFlow, en-têtes HTTP
+- Description. Ce qui s'est passé, comment détecté, impact observé
+- Preuves. Captures d'écran, journaux de texte, e-mail complet avec en-têtes en EML, court PCAP, NetFlow, en-têtes HTTP
 
-## Fichiers acceptés et transmission
+## Fichiers acceptés et provision
 
-Fournissez les preuves dans des formats clairs et accessibles de manière fiable. Joignez les petits fichiers à votre e-mail ou hébergez les gros fichiers en externe. Préférez les formats ouverts et non modifiés. Le texte brut est préférable aux captures d’écran de texte.
+Fournissez des preuves dans des formats clairs et de manière à ce que nous puissions y accéder de manière fiable. Joignez de petits fichiers à votre e-mail ou hébergez de gros fichiers à l'extérieur. Joignez de petits à moyens fichiers directement. Préférez les formats ouverts et non modifiés. Le texte brut est préférable aux captures d'écran de texte.
 
-Pour les gros fichiers, partagez un lien de téléchargement stable. Il doit être accessible sans interaction ou inclure des identifiants clairs. Indiquez la durée de validité du lien. Ajoutez des sommes de contrôle pour permettre la vérification de l’intégrité.
+Pour les gros fichiers, partagez un lien de téléchargement stable. Il devrait être récupérable sans interaction ou inclure des identifiants clairs. Indiquez la fenêtre de validité du lien. Ajoutez des sommes de contrôle pour permettre la vérification de l'intégrité.
 
-Utilisez des formats standards tels que TXT, PDF, PNG, JPG, PCAP ou PCAPNG, EML, HAR, CSV et JSON. N’incluez pas de mots de passe, clés privées ou données personnelles complètes sauf nécessité absolue.
+Utilisez des formats standard tels que TXT, PDF, PNG, JPG, PCAP ou PCAPNG, EML, HAR, CSV et JSON. N'incluez pas de mots de passe, de clés privées ou de données personnelles complètes à moins que cela ne soit strictement nécessaire.
 
-Pour la qualité, soumettez les e-mails au format EML avec en-têtes complets, les journaux en texte brut, les traces réseau en captures PCAP ou PCAPNG courtes et pertinentes, et les captures d’écran en résolution d’origine.
+Pour la qualité, soumettez des e-mails en EML avec des en-têtes complets, des journaux en texte brut, des traces réseau en captures PCAP ou PCAPNG courtes et pertinentes, et des captures d'écran en résolution originale.
 
-Pour la sécurité, censurez tout secret ; si besoin, placez les fichiers dans une archive protégée par mot de passe et communiquez le mot de passe séparément. Pour le CSAM/SAM, ne transmettez pas de fichiers, fournissez uniquement des liens.
+Pour la sécurité, masquez tous les secrets ; si nécessaire, placez les fichiers dans une archive protégée par mot de passe et partagez le mot de passe séparément. Pour CSAM/SAM, ne transmettez pas de fichiers, fournissez uniquement des liens.
 
 ## Contactez-nous
 
-Envoyez votre signalement à `abuse@zap-hosting.com`. Il est important d’utiliser un objet clair comme `Signalement Abus Phishing` ou `Signalement Abus DDoS`. Envoyez un e-mail par incident. L’exemple ci-dessous montre une demande complète :
+Envoyez votre rapport à `abuse@zap-hosting.com`. Il est important d'utiliser un sujet clair tel que `Rapport d'abus Hameçonnage` ou `Rapport d'abus DDoS`. Envoyez un e-mail par incident. L'exemple ci-dessous montre une demande complète :
 
 ```
-À : abuse@zap-hosting.com
-Objet : Signalement Abus Brute Force (SSH)
+À: abuse@zap-hosting.com
+Objet: Rapport d'abus Force brute (SSH)
 
 Emplacement :
 - IP cible : XXX.XX.XXX.XX
 - Service : SSH
 - Port : 22
-- Nom d’hôte : v12345.zap-hosting.com
+- Nom d'hôte : v12345.zap-hosting.com
 
 Horodatages (UTC) :
-- Première détection : 2025-08-23T09:12:04Z
-- Dernière détection : 2025-08-23T10:03:31Z
+- Premier vu : 2025-08-23T09:12:04Z
+- Dernier vu : 2025-08-23T10:03:31Z
 
 Description :
-Tentatives répétées de connexion SSH avec des noms d’utilisateur et des IP sources tournants. Détecté via des anomalies dans auth.log et un taux de connexion élevé. Authentification par mot de passe désactivée après détection. Aucun accès réussi observé.
+Tentatives répétées de connexion SSH avec rotation des noms d'utilisateur et des adresses IP source. Détecté via des anomalies dans auth.log et un taux de connexion élevé. Authentification par mot de passe désactivée après détection. Aucune connexion réussie observée.
 
 Preuves :
 - Extrait de auth.log avec plusieurs entrées "Failed password" et "Invalid user"
-- Extrait de log fail2ban montrant les bannissements et adresses sources
+- Extrait de log fail2ban montrant les interdictions et les adresses source
 - PCAP de 60 secondes capturant les tentatives TCP sur le port 22
-- Comptes agrégés : 12 438 tentatives depuis 352 IP sources
+- Comptes agrégés : 12 438 tentatives à partir de 352 adresses IP source
 - Principales sources avec informations ASN
 
-Extrait de log exemple :
+Extrait de journal d'échantillon :
 2025-08-23T09:55:17Z sshd[2173]: Failed password for invalid user admin from XXX.X.XXX.XX port XXXX ssh2
 2025-08-23T09:55:18Z sshd[2173]: Failed password for root from XXX.X.XX
 ```
 
-## Que se passe-t-il ensuite
+## Ce qui se passe ensuite
 
-Notre équipe Abuse traite votre signalement aussi rapidement que possible et répond dans les plus brefs délais.
+Notre équipe d'abus traite votre rapport le plus rapidement possible et répond rapidement. Nous examinons l'incident et le priorisons en fonction de sa gravité.
 
-Après examen, nous prenons des mesures telles que la notification du client, la suspension temporaire ou définitive, la suppression du contenu signalé, la préservation des preuves et la notification des autorités compétentes si nécessaire.
+En fonction de l'examen, nous prenons des mesures incluant la notification au client, la suspension temporaire/permanente, la suppression du contenu signalé, la préservation des preuves et la notification aux autorités compétentes si nécessaire.

@@ -50,9 +50,13 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          git add --all .
+          git add -A
           git commit -m "Auto-translate docs"
-          git push origin HEAD:${GITHUB_REF#refs/heads/}
+
+      - name: Push back to PR branch
+        run: |
+          git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git \
+          HEAD:${{ github.head_ref || github.ref_name }}
 
       # Immer: Build prüfen
       - name: Build Docusaurus

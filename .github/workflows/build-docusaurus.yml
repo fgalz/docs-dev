@@ -2,7 +2,6 @@ name: Build Docusaurus
 
 on:
   push:
-    branches: ["master", "main"]
     paths:
       - 'docs/**/*.md'
 

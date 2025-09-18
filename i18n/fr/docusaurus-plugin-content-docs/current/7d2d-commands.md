@@ -1,6 +1,6 @@
 ---
 id: 7d2d-commands
-title: "7 Days to Die: Commandes"
+title: "7 Days to Die : Commandes"
 description: Informations sur comment exécuter des commandes serveur sur votre serveur 7 Days to Die de ZAP-Hosting - Documentation ZAP-Hosting.com
 sidebar_label: Commandes
 services:
@@ -38,3 +38,6 @@ Les commandes les plus importantes :
 [plus de commandes](https://commands.gg/7dtd)
 
 <InlineVoucher />
+
+
+Ceci est un test

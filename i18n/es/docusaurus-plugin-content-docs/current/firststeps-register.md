@@ -6,7 +6,7 @@ sidebar_label: Registro
 ---
 
 ## 🔐 ¡¡¡¡Regístrate ahora con ZAP-Hosting!!!!
-¡Es súper fácil! Visita nuestro sitio web y ve a la página de inicio. Allí encontrarás una pantalla de inicio de sesión donde debes ingresar tu nombre de usuario, dirección de correo electrónico y contraseña.
+¡Es súper fácil! Visita nuestro sitio web y ve a la página de inicio. Allí encontrarás una pantalla de inicio de sesión donde debes ingresar tu nombre de usuario, dirección de correo electrónico y contraseña. ¡Hola!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 
@@ -14,4 +14,4 @@ sidebar_label: Registro
 Después del registro puedes iniciar sesión inmediatamente, pero deberías confirmar el correo electrónico de activación para poder utilizar el alcance completo de funciones.
 :::
 
-Hola, mi nombre es Florian! ¿Cómo me llamo, quién soy yo?
+¡Hola, mi nombre es Florian! Consigue mi nombre, ¿quién soy yo?

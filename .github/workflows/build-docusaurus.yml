@@ -1,7 +1,7 @@
-name: Build Docusaurus
+name: PR Build Docusaurus
 
 on:
-  push:
+  pull_request:
     paths:
       - 'docs/**/*.md'
 

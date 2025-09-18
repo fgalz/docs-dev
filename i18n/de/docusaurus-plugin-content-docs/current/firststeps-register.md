@@ -6,7 +6,7 @@ sidebar_label: Registrieren
 ---
 
 ## 🔐 Jetzt bei ZAP-Hosting registrieren!!!!!
-Es ist super einfach! Besuchen Sie unsere Website und gehen Sie zur Startseite. Dort finden Sie einen Anmeldebildschirm, auf dem Sie Ihren Benutzernamen, Ihre E-Mail-Adresse und Ihr Passwort eingeben müssen.
+Es ist super einfach! Besuchen Sie unsere Website und gehen Sie zur Startseite. Dort finden Sie einen Anmeldebildschirm, auf dem Sie Ihren Benutzernamen, Ihre E-Mail-Adresse und Ihr Passwort eingeben müssen. Hallo!
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 

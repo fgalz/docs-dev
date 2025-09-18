@@ -29,8 +29,8 @@ jobs:
           key: translations-${{ hashFiles('docs/**/*.md') }}
           restore-keys: translations-
 
-      - name: Install dependencies
-        run: npm install
+      # - name: Install dependencies
+      #   run: npm install
 
       # Übersetzungen erzeugen
       - name: Translate changed docs
@@ -48,9 +48,14 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add --all
-          git diff --staged --quiet || git commit -m "Auto-translate markdown files"
-          git push origin HEAD:${GITHUB_REF#refs/heads/}
+          # Alle Änderungen im i18n/-Ordner aufnehmen (neu + geändert)
+          git add i18n/
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-translate docs"
+            git push origin HEAD:${GITHUB_REF#refs/heads/}
+          else
+            echo "No translation changes to commit"
+          fi
 
       # Immer: Build prüfen
       - name: Build Docusaurus

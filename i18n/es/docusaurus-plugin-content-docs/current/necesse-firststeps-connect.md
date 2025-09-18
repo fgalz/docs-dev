@@ -66,7 +66,7 @@ La falta de visibilidad del servidor puede ocurrir si la inicialización no se c
 #### Solución faltante o poco útil
 
 
-¿Sigue teniendo problemas después de intentar solucionarlos? En este caso, nuestro equipo de soporte está disponible diariamente para brindar asistencia. Simplemente cree un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestro sitio web y explíquenos su problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y le ayudaremos a resolver el problema de manera adecuada.
+¿Sigue teniendo problemas después de intentar solucionarlos? En este caso, nuestro equipo de soporte está disponible diariamente para brindar asistencia. Simplemente cree un **[Ticket](https://zap-hosting.com/en/customer/support/)** en nuestro sitio web y explíquenos su problema con la mayor cantidad de detalles posible. Lo revisaremos lo antes posible y le ayudaremos a resolver el problema de acuerdo a ello.
 
 
 

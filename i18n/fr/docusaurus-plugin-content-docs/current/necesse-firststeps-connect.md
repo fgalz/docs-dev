@@ -36,12 +36,12 @@ En utilisant les informations mentionnées ci-dessus, vous devriez être en mesu
 ## Établir la connexion au serveur
 
 
-La connexion à un serveur de jeu peut souvent être établie de une ou plusieurs manières. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
+La connexion à un serveur de jeu peut souvent être établie de plusieurs manières. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
 
 <Tabs>
-    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveur (dans le jeu)" default>
+    <TabItem value="connect_solution_server_browser_ingame" label="Navigateur de serveurs (dans le jeu)" default>
 
-Pour vous connecter à votre serveur, ouvrez le jeu et naviguez vers **Multijoueur** dans le menu principal. Ensuite, cliquez sur **Ajouter un serveur** et saisissez un nom ainsi que l’adresse IP et le port de votre serveur. Confirmez l’entrée avec le bouton **Ajouter**. 
+Pour vous connecter à votre serveur, ouvrez le jeu et allez dans **Multijoueur** dans le menu principal. Ensuite, cliquez sur **Ajouter un serveur** et saisissez un nom ainsi que l’adresse IP et le port de votre serveur. Confirmez l’entrée avec le bouton **Ajouter**. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RdRbc92X2znNE7q/download)
 
@@ -54,24 +54,24 @@ Pour vous connecter à votre serveur, ouvrez le jeu et naviguez vers **Multijoue
 ## Problèmes potentiels et solutions
 
 
-La connexion à un serveur de jeu peut souvent être établie de une ou plusieurs manières. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
+La connexion à un serveur de jeu peut souvent être établie de plusieurs manières. Les méthodes disponibles sont décrites et expliquées en détail ci-dessous.
 
 #### Non visible
 
 
-Un manque de visibilité du serveur peut survenir si l’initialisation n’a pas été complétée avec succès. Cela peut par exemple être dû à une configuration défectueuse ou à des fichiers corrompus. Des informations complémentaires peuvent généralement être retrouvées dans la console du serveur ou les fichiers journaux.
+Un manque de visibilité du serveur peut survenir si l’initialisation n’a pas été complétée avec succès. Cela peut par exemple être dû à une configuration défectueuse ou à des fichiers corrompus. Des informations supplémentaires peuvent généralement être trouvées dans la console du serveur ou les fichiers journaux.
 
 
 
-#### Solution manquante ou non utile
+#### Solution manquante ou peu utile
 
 
-Vous rencontrez toujours des problèmes après avoir essayé de résoudre ceux-ci ? Dans ce cas, notre équipe de support est disponible quotidiennement pour vous aider. Il vous suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site web et de nous expliquer votre problème avec le plus de détails possible. Nous l’examinerons aussi rapidement que possible et vous aiderons à résoudre le problème en conséquence !
+Vous rencontrez toujours des problèmes après avoir essayé de résoudre ceux-ci ? Dans ce cas, notre équipe de support est disponible tous les jours pour vous aider. Il vous suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** sur notre site web et de nous expliquer votre problème avec le plus de détails possible. Nous l’examinerons aussi rapidement que possible et vous aiderons à résoudre le problème en conséquence !
 
 
 
 ## Conclusion
 
-Félicitations, si vous avez suivi toutes les étapes, vous devriez avoir réussi à établir une connexion au serveur. Pour toute question ou assistance supplémentaire, n’hésitez pas à contacter notre équipe de support, disponible quotidiennement pour vous aider ! 🙂
+Félicitations, si vous avez suivi toutes les étapes, vous devriez avoir réussi à établir une connexion au serveur. Pour toute question ou assistance supplémentaire, n’hésitez pas à contacter notre équipe de support, disponible tous les jours pour vous aider ! 🙂
 
 <InlineVoucher />

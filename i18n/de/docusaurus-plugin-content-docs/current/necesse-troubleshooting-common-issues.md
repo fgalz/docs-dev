@@ -12,9 +12,9 @@ import Button from '@site/src/components/Button';
 
 ## Einführung
 
-Die Einrichtung und der Betrieb eines eigenen Necesse-Spielservers kann spannend und sehr unterhaltsam sein. Während es eine großartige Möglichkeit ist, eine individuelle Spielumgebung und Community aufzubauen, bedeutet es auch, Verantwortung zu übernehmen, wenn etwas schiefgeht. Abstürze, Lag und Konfigurationsprobleme sind häufige Probleme, denen jeder Serverbesitzer irgendwann begegnen kann.
+Die Einrichtung und der Betrieb eines eigenen Necesse-Spielservers kann spannend und sehr unterhaltsam sein. Während es eine großartige Möglichkeit sein kann, eine individuelle Spielumgebung und Community aufzubauen, bedeutet es auch, Verantwortung zu übernehmen, wenn etwas schiefgeht. Abstürze, Lag und Konfigurationsprobleme sind häufige Probleme, denen jeder Serverbesitzer irgendwann begegnen kann.
 
-Damit Sie weniger Zeit mit der Fehlerbehebung verbringen und Ihren Server mehr genießen können, werden in diesem Abschnitt die häufigsten Probleme von Serverbesitzern hervorgehoben und Lösungen angeboten, die Ihnen helfen, diese schnell und effektiv zu beheben.
+Damit Sie weniger Zeit mit der Fehlerbehebung und mehr Zeit mit dem Genießen Ihres Servers verbringen, werden in diesem Abschnitt die häufigsten Probleme, mit denen Serverbesitzer konfrontiert sind, hervorgehoben und Lösungen bereitgestellt, die Ihnen helfen, diese schnell und effektiv zu beheben.
 
 
 <InlineVoucher />
@@ -23,15 +23,15 @@ Damit Sie weniger Zeit mit der Fehlerbehebung verbringen und Ihren Server mehr g
 
 ## Probleme und Lösungen
 
-Die Ursachen für Serverprobleme können variieren und sind oft nicht sofort ersichtlich. Lernen Sie, typische Probleme Schritt für Schritt zu beheben und sorgen Sie dafür, dass alles reibungslos läuft.
+Die Ursachen von Serverproblemen können variieren und sind oft nicht sofort offensichtlich. Lernen Sie, typische Probleme Schritt für Schritt zu beheben und alles reibungslos am Laufen zu halten.
 
 ### Allgemein
-Allgemeine Probleme können alle Arten unerwarteter Schwierigkeiten umfassen, die in keine spezifische Kategorie passen. Sie beziehen sich oft auf Grundeinstellungen, fehlende Dateien oder einfache Fehlkonfigurationen. Diese lassen sich in der Regel schnell mit ein paar Überprüfungen und Anpassungen beheben.
+Allgemeine Probleme können alle Arten von unerwarteten Schwierigkeiten umfassen, die in keine spezifische Kategorie passen. Sie beziehen sich oft auf grundlegende Einstellungen, fehlende Dateien oder einfache Fehlkonfigurationen. Diese können in der Regel schnell mit einigen Überprüfungen und Anpassungen behoben werden.
 
 <details>
   <summary>Server nicht sichtbar</summary>
 
-Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen lassen sich meist in der Serverkonsole oder in Logdateien finden. Außerdem sollte sichergestellt werden, dass keine falschen Filtereinstellungen in der Serverliste verwendet werden, die verhindern, dass der Server angezeigt wird.
+Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen lassen sich meist in der Serverkonsole oder in Logdateien finden. Darüber hinaus sollte sichergestellt werden, dass keine falschen Filtereinstellungen in der Serverliste verwendet werden, die verhindern, dass der Server angezeigt wird.
 
 </details>
 
@@ -43,7 +43,7 @@ Nichts unterbricht eine gute Session schneller als ein unerwarteter Absturz. Abs
 <details>
   <summary>Halten Sie Ihren Server auf dem neuesten Stand</summary>
 
-Es ist essenziell für Stabilität, Sicherheit und Kompatibilität, Ihren Spielserver mit der neuesten Version zu betreiben. Spielupdates, Framework-Änderungen oder Modifikationen an Drittanbieter-Tools können zu ernsthaften Problemen führen, wenn Ihre Server-Version veraltet ist.
+Es ist entscheidend für Stabilität, Sicherheit und Kompatibilität, Ihren Spielserver mit der neuesten Version zu betreiben. Spielupdates, Framework-Änderungen oder Modifikationen an Drittanbieter-Tools können zu ernsthaften Problemen führen, wenn Ihre Serverversion veraltet ist.
 
 Ein veralteter Spielserver kann Abstürze, unerwartetes Verhalten oder sogar einen vollständigen Startfehler verursachen.
 
@@ -57,7 +57,7 @@ Ein veralteter Spielserver kann Abstürze, unerwartetes Verhalten oder sogar ein
 
 Abstürze werden oft durch fehlerhafte oder veraltete Erweiterungen verursacht. Ob Framework, Plugin, Mod oder Ressource – Probleme können auftreten, wenn eine Erweiterung nicht mit der neuesten Spielversion kompatibel ist oder Fehler im Code enthält.
 
-Dies kann zu unerwarteten Serverabstürzen, Einfrieren oder Fehlern führen, besonders wenn mehrere problematische Erweiterungen zusammenwirken. Wenn Sie vermuten, dass eine Erweiterung die Ursache ist, versuchen Sie, diese vorübergehend zu deaktivieren und prüfen Sie, ob Ihr Server ohne sie stabil bleibt. Dies ist eine einfache Methode, um herauszufinden, welche Erweiterung Probleme verursacht.
+Dies kann zu unerwarteten Serverabstürzen, Einfrierungen oder Fehlern führen, insbesondere wenn mehrere problematische Erweiterungen zusammenwirken. Wenn Sie vermuten, dass eine Erweiterung die Ursache ist, versuchen Sie, diese vorübergehend zu deaktivieren und prüfen Sie, ob Ihr Server ohne sie stabil bleibt. Dies ist eine einfache Methode, um herauszufinden, welche Erweiterung Probleme verursacht.
 
 Stellen Sie sicher, dass alle von Ihnen verwendeten Erweiterungen aktuell, aktiv gepflegt und auf Kompatibilität mit der aktuellen Spielversion getestet sind, um Abstürze und Ausfallzeiten zu vermeiden.
 
@@ -69,7 +69,7 @@ Um die Ursache von Absturzproblemen einzugrenzen, ist es oft hilfreich, zusätzl
 
 Eine reibungslose Serverleistung ist entscheidend für ein gutes Spielerlebnis. Probleme wie Lag, Verzögerungen oder plötzliche Abstürze treten häufig auf, wenn die Serverkonfiguration nicht optimal ist, die Hardware nicht den Anforderungen des Spiels entspricht oder installierte Erweiterungen das System überlasten.
 
-Typische Gründe sind eine schlechte Konfiguration, fehlende Ressourcen oder nicht optimierte Plugins und Mods. Die Überprüfung und Anpassung dieser Bereiche hilft, die meisten leistungsbezogenen Probleme zu beheben und sorgt dafür, dass Ihr Spiel stabil und reaktionsschnell läuft.
+Typische Gründe sind eine schlechte Konfiguration, fehlende Ressourcen oder nicht optimierte Plugins und Mods. Die Überprüfung und Anpassung dieser Bereiche hilft, die meisten leistungsbezogenen Probleme zu beheben und hält Ihr Spiel stabil und reaktionsschnell.
 
 <details>
   <summary>Schlechte Serverkonfiguration</summary>
@@ -81,7 +81,7 @@ Sie können Ihre Konfiguration über die verfügbaren Einstellungen im Bereich *
 </details>
 
 <details>
-  <summary>Nicht erfüllte Spielanforderungen</summary>
+  <summary>Nichterfüllung der Spielanforderungen</summary>
 
 Um sicherzustellen, dass Ihr Spielserver reibungslos und zuverlässig läuft, ist es wichtig, eine Konfiguration zu wählen, die den Anforderungen Ihres geplanten Projekts entspricht. Die Anforderungen können je nach Spiel, Verwendung von Erweiterungen wie Mods, Plugins oder Ressourcen und der erwarteten Spielerzahl stark variieren.
 
@@ -98,7 +98,7 @@ Je nach Umfang Ihres Projekts und der Menge an zusätzlichem Inhalt können die 
 <details>
   <summary>Nicht optimierte Erweiterungen (Frameworks, Plugins, Mods, Ressourcen)</summary>
 
-Nicht alle Erweiterungen sind auf Leistung optimiert. Ob Framework, Plugin, Mod oder Ressource – eine schlechte Umsetzung kann zu erheblichen Leistungsproblemen auf Ihrem Server führen. In vielen Fällen funktioniert die beabsichtigte Funktionalität zwar, aber die Ausführung ist ineffizient, zu komplex oder verursacht unnötige Belastungen der Serverressourcen.
+Nicht alle Erweiterungen sind auf Leistung ausgelegt. Ob Framework, Plugin, Mod oder Ressource – eine schlechte Umsetzung kann zu erheblichen Leistungsproblemen auf Ihrem Server führen. In vielen Fällen funktioniert die beabsichtigte Funktionalität zwar, aber die Ausführung ist ineffizient, zu komplex oder verursacht unnötige Belastungen der Serverressourcen.
 
 Dies kann zu hoher CPU-Auslastung, Speicherlecks, Lag oder sogar Abstürzen führen, besonders wenn mehrere nicht optimierte Komponenten zusammenwirken. Stellen Sie stets sicher, dass Erweiterungen aktiv gepflegt, gut dokumentiert und auf Leistung getestet sind. Im Zweifelsfall konsultieren Sie Feedback aus der Community oder überwachen Sie die Serverleistung, um problematische Elemente zu identifizieren.
 
@@ -124,17 +124,17 @@ Außerdem können Hintergrundprozesse, instabile Internetverbindungen, Paketverl
 
 Wenn Sie Lag oder hohen Ping auf Ihrem Server feststellen, gibt es einige einfache Schritte, die Sie zur Leistungsverbesserung unternehmen können. Stellen Sie zunächst sicher, dass Ihr Server die empfohlenen Spezifikationen für Ihr Spiel und Projekt erfüllt oder übertrifft. Die Wahl eines Serverstandorts in der Nähe Ihrer Spielerbasis kann ebenfalls helfen, die Latenz zu reduzieren.
 
-Wenn Sie vermuten, dass Routing-Probleme oder externe Netzwerkprobleme Verzögerungen verursachen, zögern Sie nicht, unser Support-Team zu kontaktieren. Wir helfen Ihnen, die Situation zu analysieren und die bestmögliche Lösung zu finden.
+Wenn Sie vermuten, dass Routing-Probleme oder externe Netzwerkprobleme Verzögerungen verursachen, zögern Sie nicht, unser Support-Team zu kontaktieren. Es hilft Ihnen, die Situation zu analysieren und die bestmögliche Lösung zu finden.
 
 
 </details>
 
 <details>
-  <summary>DDoS und andere Netzbedrohungen</summary>
+  <summary>DDoS und andere Netzwerkbedrohungen</summary>
 
-Spielserver können gelegentlich Ziel bösartiger Netzwerkaktivitäten werden, insbesondere Distributed Denial of Service (DDoS)-Angriffe. Diese Angriffe überfluten den Server mit übermäßigem Datenverkehr, was zu Lag, Verbindungsverlust oder sogar vollständigen Ausfällen führt. In anderen Fällen versuchen Angreifer, Netzwerkschwachstellen auszunutzen oder die Serverstabilität durch wiederholte Verbindungsversuche oder ungewöhnliche Datenmuster zu stören.
+Spielserver können gelegentlich Ziel bösartiger Netzwerkaktivitäten werden, insbesondere Distributed Denial of Service (DDoS)-Angriffe. Diese Angriffe überfluten den Server mit übermäßigem Datenverkehr, was zu Lag, Verbindungsverlust oder sogar vollständigen Ausfällen führen kann. In anderen Fällen versuchen Angreifer, Netzwerkschwachstellen auszunutzen oder die Serverstabilität durch wiederholte Verbindungsversuche oder ungewöhnliche Datenmuster zu stören.
 
-Während die meisten dieser Bedrohungen außerhalb der Kontrolle des durchschnittlichen Nutzers liegen, bietet ZAP-Hosting integrierten Schutz und Abwehrsysteme, um Ihren Server vor gängigen und fortgeschrittenen Angriffen zu schützen. Wenn Sie vermuten, dass Ihr Server Ziel eines Angriffs ist, der Probleme verursacht, wenden Sie sich bitte an unser Support-Team für Unterstützung und weitere Anweisungen.
+Während die meisten dieser Bedrohungen außerhalb der Kontrolle des durchschnittlichen Nutzers liegen, bietet ZAP-Hosting integrierten Schutz und Abwehrsysteme, um Ihren Server vor gängigen und fortgeschrittenen Angriffen zu schützen. Wenn Sie vermuten, dass Ihr Server Ziel eines Angriffs ist und dadurch Probleme verursacht werden, wenden Sie sich bitte an unser Support-Team für Unterstützung und weitere Anweisungen.
 
 </details>
 
@@ -145,7 +145,7 @@ Während die meisten dieser Bedrohungen außerhalb der Kontrolle des durchschnit
 
 ## Vorbeugende Maßnahmen
 
-Regelmäßige Backups können viel Stress und Sorgen vermeiden. Erstellen Sie regelmäßige Sicherungen, um sicherzustellen, dass Sie im Falle von Problemen eine ältere Version haben, bei der noch alles funktioniert hat. Wir bieten eine [Backup-Lösung](gameserver-backups.md) für unsere Necesse-Spielserver an, mit der Sie manuelle oder geplante automatische Backups erstellen können.
+Regelmäßige Backups können viel Stress und Sorgen vermeiden. Erstellen Sie regelmäßige Backups, um sicherzustellen, dass Sie im Falle von Problemen eine Sicherung einer älteren Version haben, bei der noch alles funktioniert hat. Wir bieten eine Backup-Lösung für unsere Necesse-Spielserver an, mit der Sie manuelle oder geplante automatische Backups erstellen können.
 
 
 
@@ -160,6 +160,6 @@ Regelmäßige Backups können viel Stress und Sorgen vermeiden. Erstellen Sie re
 
 Diese Schritte sollten Ihnen helfen, das Problem zu lösen. Wenn Ihr Problem hier aufgeführt ist, sollte die passende Lösung Sie bereits in die richtige Richtung weisen und Ihnen helfen, alles wieder zum Laufen zu bringen.
 
-Falls nicht, zögern Sie bitte nicht, unser Support-Team für weitere Fragen oder Unterstützung zu kontaktieren. Es steht Ihnen täglich zur Verfügung! 🙂
+Falls nicht, zögern Sie bitte nicht, unser Support-Team für weitere Fragen oder Unterstützung zu kontaktieren, das täglich für Sie da ist! 🙂
 
 <InlineVoucher />

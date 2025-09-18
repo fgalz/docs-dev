@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Vous êtes intéressé par un **serveur Necesse** ou en possédez déjà un, mais il vous manque encore une vue d'ensemble complète de l'administration et de la localisation de toutes les options nécessaires ? Surtout au début, cela peut être un défi. Mais ne vous inquiétez pas, nous vous proposons ci-dessous une introduction détaillée à l'administration de votre service, afin que vous disposiez de la meilleure vue d'ensemble possible.
+Vous êtes intéressé par un **serveur Necesse** ou en possédez déjà un, mais il vous manque encore une vue d'ensemble complète de l'administration et de la localisation de toutes les options nécessaires ? Surtout au début, cela peut être un défi. Mais ne vous inquiétez pas, nous vous proposons ci-dessous une introduction détaillée à l'administration de votre service, afin que vous ayez la meilleure vue d'ensemble possible.
 
-Après avoir parcouru ce guide, vous serez en mesure de gérer facilement votre serveur de manière efficace et de trouver rapidement et simplement toutes les options et fonctionnalités nécessaires. Ici, vous obtiendrez une vue d'ensemble structurée qui vous aidera étape par étape à vous familiariser avec l'administration du serveur et à développer vos connaissances de manière ciblée. Ainsi, vous pourrez vous assurer que votre **serveur Necesse** est parfaitement adapté à vos besoins et que vous tirez le meilleur parti des options disponibles.
+Après avoir parcouru ce guide, vous serez en mesure de gérer facilement votre serveur de manière efficace et de trouver rapidement et simplement toutes les options et fonctionnalités nécessaires. Ici, vous obtiendrez une vue d'ensemble structurée qui vous aidera pas à pas à vous familiariser avec l'administration du serveur et à développer vos connaissances de manière ciblée. Ainsi, vous pourrez vous assurer que votre **serveur Necesse** est parfaitement adapté à vos besoins et que vous tirez le meilleur parti des options disponibles.
 
 <InlineVoucher />
 
@@ -44,7 +44,7 @@ Dans le tableau de bord, vous avez également la possibilité de démarrer, arr�
 Selon l'emplacement du serveur et la protection DDoS disponible, vous pouvez également surveiller les attaques actives en temps réel. Cela inclut des informations détaillées sur le trafic, montrant à la fois le trafic légitime et la quantité de trafic bloquée par les systèmes d'atténuation. Ce niveau de transparence vous aide à comprendre le fonctionnement de la protection et vous permet d'identifier rapidement les risques potentiels.
 
 :::info Accès au gestionnaire DDoS manquant ?
-L'utilisation du Gestionnaire DDoS nécessite soit une adresse IP dédiée, soit l'option supplémentaire "Aperçu du Gestionnaire DDoS". Si votre forfait actuel ne comprend pas ces composants, vous pouvez les ajouter à tout moment en effectuant une mise à niveau de votre service.
+L'utilisation du Gestionnaire DDoS nécessite soit une adresse IP dédiée, soit l'option supplémentaire "Aperçu du Gestionnaire DDoS". Si votre forfait actuel ne comprend pas ces composants, vous pouvez les ajouter à tout moment en améliorant votre service.
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
@@ -66,7 +66,7 @@ Un problème technique survient et vous ne savez pas d'où il vient ? Une premi�
 Les messages d'erreur en particulier peuvent aider à identifier et mieux comprendre la cause d'un problème. Souvent, les difficultés peuvent être découvertes et résolues en regardant de manière ciblée les fichiers journaux.
 
 :::warning
-Les informations trouvées ne vous aident pas ou vous ne les comprenez pas ? Ne vous inquiétez pas ! Dans ce cas, notre support est également disponible quotidiennement. Il vous suffit de créer un **[Ticket](https://zap-hosting.com/en/customer/support/)** et de nous expliquer votre problème. Nous l'examinerons aussi rapidement que possible et vous aiderons à résoudre le problème en conséquence ! :)
+Les informations trouvées ne vous aident pas ou vous ne les comprenez pas ? Ne vous inquiétez pas ! Dans ce cas, notre support est également disponible quotidiennement. Il vous suffit de créer un **[ticket](https://zap-hosting.com/en/customer/support/)** et de nous expliquer votre problème. Nous l'examinerons aussi rapidement que possible et vous aiderons à résoudre le problème en conséquence ! :)
 :::
 
 
@@ -84,7 +84,7 @@ Votre serveur a été temporairement hors ligne et vous ne pouvez pas expliquer 
 
 Si notre système de surveillance détecte une interruption générale, nos techniciens sont automatiquement informés et prennent en charge le problème dès que possible.
 
-Dans cette section, vous trouverez un aperçu de l'historique des interruptions du système hôte sur lequel votre service de serveur de jeu est exécuté. Vous pouvez trouver plus d'informations et la dernière version de notre état de service sur notre nouvelle [page de statut](https://status.zap-hosting.com/).
+Dans cette section, vous trouverez un aperçu de l'historique des interruptions du système hôte sur lequel votre service de serveur de jeu fonctionne. Vous pouvez trouver plus d'informations et la dernière version de notre statut de service sur notre nouvelle [page de statut](https://status.zap-hosting.com/).
 
 
 
@@ -115,7 +115,7 @@ Si vous êtes plus à l'aise et souhaitez effectuer des modifications plus préc
 
 L'éditeur de fichiers de configuration vous permet de modifier directement les fichiers de configuration depuis le site web de manière classique, sans la vue simplifiée. Cette option vous permet de personnaliser les paramètres de votre serveur et de les configurer selon vos préférences personnelles.
 
-En utilisant l'éditeur, vous avez un accès direct à toutes les options disponibles et pouvez les personnaliser précisément. Cela est particulièrement utile pour les utilisateurs avancés qui souhaitent un contrôle total sur les paramètres de leur serveur et savent exactement quelles modifications ils veulent apporter.
+En utilisant l'éditeur, vous avez un accès direct à toutes les options disponibles et pouvez les personnaliser précisément. Cela est particulièrement utile pour les utilisateurs avancés qui souhaitent un contrôle total sur les paramètres de leur serveur et savent exactement quelles modifications ils veulent effectuer.
 
 :::warning
 Avez-vous remarqué que certaines de vos modifications sont partiellement écrasées ? Veuillez noter que certaines valeurs d'option sont prises depuis la page des paramètres. Si vous souhaitez effectuer ces modifications directement dans la config, vous devez d'abord désactiver les options concernées sur la page des paramètres.
@@ -124,7 +124,7 @@ Avez-vous remarqué que certaines de vos modifications sont partiellement écras
 
 ### Jeux
 
-Sous **Jeux**, vous avez toujours la possibilité de changer la variante de jeu de votre jeu existant ou d'installer un autre jeu en général. Les jeux avec le même prix par slot peuvent être sélectionnés directement sous **Jeux disponibles**. Pour tous les autres jeux, un ajustement du prix par slot est d'abord nécessaire. Plus d'informations à ce sujet sont disponibles dans le guide [Changement de jeu](gameserver-gameswitch.md).
+Sous **Jeux**, vous avez toujours la possibilité de changer la variante de jeu de votre jeu existant ou d'installer un autre jeu en général. Les jeux avec le même prix par slot peuvent être sélectionnés directement sous **Jeux disponibles**. Pour tous les autres jeux, un ajustement du prix par slot est d'abord nécessaire. Plus d'informations à ce sujet sont disponibles dans le guide de changement de jeu.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -132,7 +132,7 @@ Sous **Jeux**, vous avez toujours la possibilité de changer la variante de jeu 
 
 ### Versions
 
-Sous **Versions**, vous avez la possibilité de voir et gérer la version actuelle de votre serveur de jeu. Ici, vous pouvez mettre à jour vers la dernière version à tout moment ou activer les mises à jour automatiques pour garantir que votre serveur soit toujours à jour.
+Sous **Versions**, vous avez la possibilité de voir et gérer la version actuelle de votre serveur de jeu. Vous pouvez ici mettre à jour vers la dernière version à tout moment ou activer les mises à jour automatiques pour garantir que votre serveur soit toujours à jour.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
@@ -142,13 +142,13 @@ De plus, vous pouvez également activer la fonction de notification par e-mail p
 
 ### Tâches planifiées
 
-Créez des tâches planifiées qui s'exécutent automatiquement à des heures définies pour automatiser divers processus sur votre serveur. Vous pouvez définir si une tâche doit s'exécuter une seule fois ou se répéter selon les besoins. Les types de tâches pris en charge incluent le démarrage, l'arrêt ou le redémarrage des services, le redémarrage du serveur s'il est en ligne, la création de sauvegardes ou l'exécution de commandes personnalisées. 
+Créez des tâches planifiées qui s'exécutent automatiquement à des moments définis pour automatiser divers processus sur votre serveur. Vous pouvez définir si une tâche doit s'exécuter une seule fois ou se répéter selon les besoins. Les types de tâches pris en charge incluent le démarrage, l'arrêt ou le redémarrage des services, le redémarrage du serveur s'il est en ligne, la création de sauvegardes ou l'exécution de commandes personnalisées. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
 ### Planificateur de redémarrage
 
-Vous souhaitez programmer des redémarrages du serveur à des heures spécifiques ? Le Planificateur de redémarrage vous permet de configurer des redémarrages automatiques planifiés de votre serveur de jeu. Avec cette fonctionnalité, vous pouvez configurer des redémarrages à des heures précises ou à intervalles réguliers.
+Vous souhaitez planifier des redémarrages du serveur à des moments spécifiques ? Le Planificateur de redémarrage vous permet de configurer des redémarrages automatiques programmés de votre serveur de jeu. Avec cette fonctionnalité, vous pouvez configurer des redémarrages à des heures précises ou à intervalles réguliers.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
@@ -162,19 +162,19 @@ Dans la section **Outils** de votre panneau de navigation, vous trouverez plusie
 
 ### Navigateur FTP
 
-Avec le **Navigateur FTP**, vous obtiendrez toutes les informations nécessaires pour établir une connexion à l'accès FTP. L'accès FTP vous permet un accès direct aux fichiers de votre serveur de jeu. Nous recommandons d'utiliser un programme FTP externe tel que **Filezilla** ou **WinSCP** pour une utilisation optimale. Si vous ne connaissez pas l'utilisation du FTP, nous vous recommandons de consulter notre guide [Accès FTP](gameserver-ftpaccess.md) qui pourrait vous aider.
+Avec le **Navigateur FTP**, vous obtiendrez toutes les informations nécessaires pour établir une connexion à l'accès FTP. L'accès FTP vous permet un accès direct aux fichiers de votre serveur de jeu. Nous recommandons d'utiliser un programme FTP externe tel que **Filezilla** ou **WinSCP** pour une utilisation optimale. Si vous ne connaissez pas l'utilisation du FTP, nous vous recommandons de consulter notre guide d'accès FTP qui pourrait vous aider.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla :** FileZilla est probablement le client FTP le plus simple et le plus connu. Il suffit de l'installer, de le lancer et de saisir vos identifiants dans la barre supérieure, que vous trouverez un peu plus haut sur cette page. Après un clic rapide sur "Connecter", vous êtes directement connecté au serveur et pouvez gérer les fichiers.
+**FileZilla :**  FileZilla est probablement le client FTP le plus simple et le plus connu. Installez-le simplement, lancez-le et saisissez vos identifiants dans la barre supérieure, que vous trouverez un peu plus haut sur cette page. Après un clic rapide sur "Connexion", vous êtes directement connecté au serveur et pouvez gérer les fichiers.
 
-**WinSCP :** WinSCP est en fait destiné à SCP et SFTP (les dérivés chiffrés du protocole de transfert de fichiers FTP), mais peut tout aussi bien gérer le FTP normal. Le programme est un peu plus complet que FileZilla et convient plutôt aux utilisateurs avancés.
+**WinSCP :**  WinSCP est en fait destiné à SCP et SFTP (les dérivés chiffrés du protocole de transfert de fichiers FTP), mais peut tout aussi bien gérer le FTP normal. Le programme est un peu plus complet que FileZilla et convient plutôt aux utilisateurs avancés.
 
 
 
 ### Bases de données
 
-En plus de nos produits de serveurs de jeu, nous proposons également 10 bases de données incluses. Ces bases de données sont nécessaires, par exemple, lorsque des données doivent être stockées dans une base de données. Sous **Bases de données**, vous pouvez créer une base de données et consulter les identifiants d'accès. Vous avez également la possibilité d'activer l'option de sauvegarde et d'importer des sauvegardes de bases de données existantes.
+En plus de nos produits de serveurs de jeu, nous proposons également 10 bases de données incluses. Ces bases de données sont nécessaires, par exemple, lorsque des données doivent être stockées dans une base. Sous **Bases de données**, vous pouvez créer une base de données et consulter les identifiants d'accès. Vous avez également la possibilité d'activer l'option de sauvegarde et d'importer des sauvegardes de bases de données existantes.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
@@ -190,8 +190,8 @@ Dans les paramètres, vous pouvez spécifier si les sauvegardes doivent être cr
 
 Nous fournissons par défaut 10 Go d'espace de stockage sur le serveur de stockage pour les sauvegardes de nos produits de serveurs de jeu. Si vous avez besoin de plus d'espace de stockage, il peut être augmenté moyennant des frais. Ainsi, vous vous assurez d'avoir toujours suffisamment d'espace pour vos sauvegardes et pouvez toujours accéder aux sauvegardes plus anciennes si nécessaire.
 
-## Liens complémentaires
-Dans la section **Liens complémentaires**, vous trouverez d'autres liens pertinents pour votre produit. 
+## Liens supplémentaires
+Dans la section **Liens supplémentaires**, vous trouverez d'autres liens pertinents pour votre produit. 
 
 ### Questions fréquemment posées
 La section **Questions fréquemment posées** offre un aperçu des questions les plus courantes posées par nos clients. Vous y trouverez des réponses utiles et des informations détaillées sur divers sujets pour vous aider rapidement et efficacement.
@@ -202,11 +202,11 @@ Nous proposons une documentation complète pour nos produits, qui sert de base d
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
 ### Actualités
-La section **Actualités** vous fournit une vue d'ensemble complète de toutes les annonces et nouveautés liées à votre service. Vous y trouverez des informations importantes sur divers aspects tels que :
+Les **Actualités** vous fournissent une vue d'ensemble complète de toutes les annonces et nouveautés liées à votre service. Vous y trouverez des informations importantes sur divers aspects tels que :
 
 - Les changements du service, par exemple par des mises à jour ou de nouvelles fonctionnalités
 - Les annonces concernant d'éventuelles maintenances ou problèmes techniques
-- Les offres spéciales et promotions qui vous offrent des avantages ou réductions exclusifs
+- Les offres spéciales et promotions qui vous donnent des avantages ou réductions exclusifs
 - D'autres informations pertinentes pouvant concerner l'utilisation de votre service
 
 En consultant régulièrement les **Actualités**, vous resterez informé et pourrez ajuster votre service en conséquence pour tirer le meilleur parti de votre serveur.

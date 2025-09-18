@@ -14,4 +14,4 @@ sidebar_label: Registro
 Después del registro puedes iniciar sesión inmediatamente, pero deberías confirmar el correo electrónico de activación para poder utilizar el alcance completo de funciones.
 :::
 
-¡Hola, mi nombre es Florian! Consigue mi nombre, ¿quién soy yo?
+¡Hola, mi nombre es Florian! Consigue mi nombre, ¿quién soy? ¿Adivina quién sigue probando?

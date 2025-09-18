@@ -22,7 +22,7 @@ We cover a wide range of topics and regularly update our content to ensure you'r
 
 ## Gameserver
 
-Perfect and utilize the full extent of your game server. With our expertise, we take your gaming to a new level. Our detailed guides for over 100 different games and their extensions/modifications enable you to develop a deep understanding of configuring and managing your game servers.
+Perfect and utilize the full extent of your game server. With our expertise, we take your gaming to a new level. Our detailed guides for over 100 different games and their extensions/modifications enable you to develop a deep understanding of configuring and managing your game servers. Test
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>

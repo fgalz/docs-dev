@@ -10,7 +10,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 
 ## Introduction 
 
-Test 123
+Test 1234
 
 Welcome to the comprehensive documentation of ZAP-Hosting, serving as the central hub for everything related to our products – from game servers, vRoot servers, and dedicated servers to domain & webspace, as well as voicebot & voice server. Here you will find detailed instructions, tips, and tricks to help you get the most out of your products (services) and successfully implement your projects.
 
@@ -149,7 +149,7 @@ Utilize the full extent of your VPS with our comprehensive guides. Whether you p
 
 ## Dedicated Server
 
-Our dedicated servers offer performance for demanding projects. Discover in our guides how to configure the hardware and operating systems according to your needs and ensure that your applications run optimally.
+Our dedicated servers offer performance for demanding projects. Discover in our guides how to configure the hardware and operating systems according to your needs and ensure that your applications run optimally. Test
 
 <Cards>
     <Card title="Dedicated Server" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>

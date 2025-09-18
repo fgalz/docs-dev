@@ -45,11 +45,11 @@ jobs:
 
       # Nur bei Push: Änderungen committen und zurückpushen
       - name: Commit translations
+        if: github.event_name == 'push'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Alle Änderungen im i18n/-Ordner aufnehmen (neu + geändert)
-          git add i18n/
+          git add -A i18n/
           if ! git diff --cached --quiet; then
             git commit -m "Auto-translate docs"
             git push origin HEAD:${GITHUB_REF#refs/heads/}

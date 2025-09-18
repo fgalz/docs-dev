@@ -50,9 +50,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
           git add --all .
           git diff --exit-code && git commit -am "update i18n" || true
           git push
+
 
       # Immer: Build prüfen
       - name: Build Docusaurus

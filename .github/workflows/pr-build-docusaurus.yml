@@ -50,8 +50,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add i18n/
-          git diff --staged --quiet || git commit -m "Auto-translate docs"
           git add --all .
           git diff --exit-code && git commit -am "update i18n" || true
           git push

@@ -50,14 +50,10 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Änderungen und neue Dateien im i18n/-Ordner aufnehmen
-          git add -A i18n/
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-translate docs"
-            git push origin HEAD:${GITHUB_REF#refs/heads/}
-          else
-            echo "No translation changes to commit"
-          fi
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-translate docs"
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
+
 
       # Immer: Build prüfen
       - name: Build Docusaurus

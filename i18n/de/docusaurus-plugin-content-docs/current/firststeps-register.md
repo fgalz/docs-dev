@@ -14,4 +14,4 @@ Es ist super einfach! Besuchen Sie unsere Website und gehen Sie zur Startseite. 
 Nach der Registrierung können Sie sich sofort anmelden, aber Sie sollten die Aktivierungs-E-Mail bestätigen, um den vollen Funktionsumfang nutzen zu können.
 :::
 
-Hallo, mein Name ist Florian! Bekomme meinen Namen, wer bin ich?
+Hallo, mein Name ist Florian! Bekomme meinen Namen, wer bin ich? Rate mal, wer immer noch testet?

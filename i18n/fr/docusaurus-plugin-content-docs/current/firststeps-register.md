@@ -11,7 +11,7 @@ C'est super facile ! Visitez notre site web et allez à la page d'accueil. Là, 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 
 :::info
-Après l'inscription, vous pouvez vous connecter immédiatement, mais vous devriez confirmer l'email d'activation pour pouvoir utiliser toutes les fonctions.
+Après l'inscription, vous pouvez vous connecter immédiatement, mais vous devriez confirmer l'email d'activation pour pouvoir utiliser l'ensemble des fonctions.
 :::
 
-Bonjour, mon nom est Florian ! Retenez mon nom, qui suis-je ?
+Bonjour, mon nom est Florian ! Obtenez mon nom, qui suis-je ? Devinez qui teste encore ?

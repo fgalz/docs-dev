@@ -36,6 +36,7 @@ const sidebars = {
     'necesse-firststeps-connect',
     'necesse-troubleshooting-common-issues',
     'necesse-firststeps-dashboard'
+
   ]
   
 };

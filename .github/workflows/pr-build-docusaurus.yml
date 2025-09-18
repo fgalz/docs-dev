@@ -39,20 +39,20 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
+      - name: Debug new files
+        run: |
+          echo "Unstaged changes:"
+          git status --untracked-files=all --short
+
       # Nur bei Push: Änderungen committen und zurückpushen
       - name: Commit translations
         if: github.event_name == 'push'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add i18n/
+          git add -A
           git diff --staged --quiet || git commit -m "Auto-translate docs"
           git push origin HEAD:${GITHUB_REF#refs/heads/}
-
-      - name: Debug new files
-        run: |
-          echo "Unstaged changes:"
-          git status --untracked-files=all --short
 
       # Immer: Build prüfen
       - name: Build Docusaurus

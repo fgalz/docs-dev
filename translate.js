@@ -10,7 +10,7 @@ const openai = new OpenAI({
 
 const CACHE_DIR = '.translation-cache';
 const SOURCE_DIR = 'docs';
-const TARGET_LANGUAGES = ['de', 'fr', 'es']; // adjust as needed
+const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar']; // adjust as needed
 
 // ---------------- Cache System ----------------
 

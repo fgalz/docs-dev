@@ -15,9 +15,9 @@ Prueba 12345
 
 Bienvenido a la documentación completa de ZAP-Hosting, que sirve como el centro principal para todo lo relacionado con nuestros productos: desde servidores de juegos, servidores vRoot y servidores dedicados hasta dominios y espacio web, así como voicebot y servidor de voz. Aquí encontrarás instrucciones detalladas, consejos y trucos para ayudarte a aprovechar al máximo tus productos (servicios) y llevar a cabo tus proyectos con éxito.
 
-Nuestro objetivo es hacer que el conocimiento sea accesible y comprensible. Por eso hemos diseñado nuestras guías para que sean fácilmente entendibles para todos, independientemente de los conocimientos técnicos previos. Ya sea que estés comenzando a configurar tu primer servidor de juegos, adentrándote en el mundo de los servidores dedicados, registrando tu primer dominio o configurando tu servidor de voz, nuestras guías están orientadas a proporcionarte un punto de entrada fácil y claro.
+Nuestro objetivo es hacer que el conocimiento sea accesible y comprensible. Por eso hemos diseñado nuestras guías para que sean fácilmente entendibles para todos, independientemente de los conocimientos técnicos previos. Ya sea que estés comenzando con la configuración de tu primer servidor de juegos, adentrándote en el mundo de los servidores dedicados, registrando tu primer dominio o configurando tu servidor de voz, nuestras guías están orientadas a proporcionarte un punto de entrada fácil y claro.
 
-Cubremos una amplia gama de temas y actualizamos regularmente nuestro contenido para asegurarnos de que siempre estés al día y puedas aplicar las mejores prácticas. Desde guías básicas de configuración hasta técnicas avanzadas de configuración.
+Cubrimos una amplia gama de temas y actualizamos regularmente nuestro contenido para asegurarnos de que siempre estés al día y puedas aplicar las mejores prácticas. Desde guías básicas de configuración hasta técnicas avanzadas de configuración.
 
 <YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="¡Bienvenido a ZAP-Docs!" description="¿Sientes que entiendes mejor cuando ves las cosas en acción? ¡Te tenemos cubierto! Sumérgete en nuestro video que lo explica todo para ti. Ya sea que tengas prisa o simplemente prefieras absorber la información de la manera más atractiva posible."/>
 
@@ -165,7 +165,7 @@ Inicia tu proyecto en línea sobre una base sólida con guías fáciles de enten
 </Cards>
 
 ## Voicebot y servidor de voz
-Mejora tus interacciones en línea con nuestros voicebots y servidores de voz. Nuestras guías facilitan la configuración, para que puedas pasar más tiempo con tu comunidad, ya sea jugando o en reuniones.
+Mejora tus interacciones en línea con nuestros voicebots y servidores de voz. Nuestras guías facilitan la configuración para que puedas pasar más tiempo con tu comunidad, ya sea jugando o en reuniones.
 
 <Cards>
     <Card title="Voicebot" description="Marcador de posición" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>

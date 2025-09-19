@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 You are interested in an **Necesse server** or already own one, but you still lack a comprehensive overview of the administration and the findability of all necessary options? Especially at the beginning, this can be a challenge. But don't worry, we'll provide you with a detailed introduction to the administration of your service below, so you'll have the best possible overview.
 
-After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Necesse server** is optimally adapted to your needs and that you get the most out of the available options.
+After going through this guide, you will easily be able to manage your server efficiently and find all the necessary options and features quickly and easily. Here, you will get a structured overview that will help you step by step to get familiar with the server administration and expand your knowledge in a targeted manner. This way, you can ensure that your **Necesse server** is optimally adapted to your needs and that you get the most out of the available options. Test
 
 <InlineVoucher />
 
@@ -39,7 +39,8 @@ In the dashboard you also have the option of starting, stopping or restarting yo
 ### DDoS Manager
 
 
-View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
+
+View past DDoS attacks to better assess potential threats and patterns. Enable notifications for ongoing DDoS attacks on your server to react quickly when an incident occurs.
 
 Depending on the server location and the DDoS protection available there, you can also monitor active attacks in real time. This includes detailed traffic insights, showing both legitimate traffic and the amount of traffic blocked by the mitigation systems. This level of transparency helps you understand how the protection is working and enables you to identify potential risks early.
 

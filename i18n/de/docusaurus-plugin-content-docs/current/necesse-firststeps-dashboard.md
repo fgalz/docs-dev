@@ -13,7 +13,7 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 Du interessierst dich für einen **Necesse-Server** oder besitzt bereits einen, hast aber noch keinen umfassenden Überblick über die Administration und die Auffindbarkeit aller notwendigen Optionen? Gerade am Anfang kann das eine Herausforderung sein. Aber keine Sorge, wir geben dir unten eine ausführliche Einführung in die Verwaltung deines Services, damit du die bestmögliche Übersicht erhältst.
 
-Nach Durcharbeiten dieser Anleitung wirst du deinen Server problemlos effizient verwalten und alle notwendigen Optionen und Funktionen schnell und einfach finden können. Hier erhältst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Necesse-Server** optimal an deine Bedürfnisse angepasst ist und du das Beste aus den verfügbaren Optionen herausholst. Test
+Nach Durcharbeiten dieser Anleitung wirst du deinen Server problemlos effizient verwalten und alle notwendigen Optionen und Funktionen schnell und einfach finden können. Hier erhältst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Necesse-Server** optimal an deine Bedürfnisse angepasst ist und du das Maximum aus den verfügbaren Optionen herausholst. Test
 
 <InlineVoucher />
 
@@ -62,7 +62,7 @@ Die Nutzung des DDoS-Managers ist nur möglich, wenn entweder eine eigene IP-Adr
 
 ### Logdateien
 
-Tritt ein technisches Problem auf und du bist dir über die Ursache unsicher? Eine erste mögliche Lösungsstrategie ist die Überprüfung der **Logdateien**. Diese Dateien enthalten viele Informationen über den Server, wie aktuelle Ereignisse, Hinweise oder Fehlermeldungen.
+Tritt ein technisches Problem auf und du bist dir unsicher über die Ursache? Eine erste mögliche Lösungsstrategie ist die Überprüfung der **Logdateien**. Diese Dateien enthalten viele Informationen über den Server, wie aktuelle Ereignisse, Hinweise oder Fehlermeldungen.
 
 Insbesondere Fehlermeldungen können helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oft können Schwierigkeiten durch einen gezielten Blick in die Logdateien aufgedeckt und behoben werden.
 
@@ -81,7 +81,7 @@ Das **Ereignisprotokoll** bietet dir eine umfassende Übersicht über alle Aktiv
 
 ### Serviceunterbrechungen
 
-Dein Server war vorübergehend offline und du kannst dir nicht erklären warum? Ein Blick ins Ereignisprotokoll und die Logdateien hat ebenfalls keine Informationen geliefert? Es könnte sein, dass die Ursache des Problems nicht direkt bei deinem Server liegt, sondern beim Hostsystem, auf dem dein Server betrieben wird.
+Dein Server war vorübergehend offline und du kannst dir nicht erklären warum? Ein Blick ins Ereignisprotokoll und die Logdateien hat auch keine Informationen geliefert? Es könnte sein, dass die Ursache des Problems nicht direkt bei deinem Server liegt, sondern beim Hostsystem, auf dem dein Server betrieben wird.
 
 Wenn unser Überwachungssystem eine allgemeine Unterbrechung erkennt, werden unsere Techniker automatisch benachrichtigt und kümmern sich so schnell wie möglich um das Problem.
 
@@ -125,7 +125,7 @@ Ist dir aufgefallen, dass einige deiner Änderungen teilweise überschrieben wer
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit, die Spielvariante deines bestehenden Spiels zu ändern oder generell ein anderes Spiel zu installieren. Spiele mit dem gleichen Slot-Preis können direkt unter **Verfügbare Spiele** ausgewählt werden. Für alle anderen Spiele ist zunächst eine Anpassung des Slot-Preises erforderlich. Mehr Informationen dazu findest du im Game-Change-Guide.
+Unter **Spiele** hast du jederzeit die Möglichkeit, die Spielvariante deines bestehenden Spiels zu ändern oder generell ein anderes Spiel zu installieren. Spiele mit dem gleichen Slot-Preis können direkt unter **Verfügbare Spiele** ausgewählt werden. Für alle anderen Spiele ist zunächst eine Anpassung des Slot-Preises erforderlich. Mehr Informationen dazu findest du im Game Change Guide.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -143,7 +143,7 @@ Außerdem kannst du die E-Mail-Benachrichtigungsfunktion für automatische Updat
 
 ### Geplante Aufgaben
 
-Erstelle geplante Aufgaben, die automatisch zu definierten Zeiten ausgeführt werden, um verschiedene Prozesse auf deinem Server zu automatisieren. Du kannst einstellen, ob eine Aufgabe einmalig oder wiederholt ausgeführt werden soll. Unterstützte Aufgabentypen sind unter anderem das Starten, Stoppen oder Neustarten von Services, Neustart des Servers, wenn er online ist, Erstellen von Backups oder Ausführen benutzerdefinierter Befehle.
+Erstelle geplante Aufgaben, die automatisch zu definierten Zeiten ausgeführt werden, um verschiedene Prozesse auf deinem Server zu automatisieren. Du kannst einstellen, ob eine Aufgabe einmalig oder wiederholt ausgeführt werden soll. Unterstützte Aufgabentypen sind unter anderem das Starten, Stoppen oder Neustarten von Services, Neustart des Servers bei Online-Status, Erstellen von Backups oder Ausführen benutzerdefinierter Befehle. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
@@ -163,13 +163,13 @@ Im Bereich **Werkzeuge** deines Navigationspanels findest du eine Reihe von Unte
 
 ### FTP-Browser
 
-Mit dem **FTP-Browser** erhältst du alle notwendigen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir den direkten Zugriff auf die Dateien deines Gameservers. Für die optimale Nutzung empfehlen wir die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP**. Wenn du mit der Nutzung von FTP nicht vertraut bist, empfehlen wir einen Blick in unseren FTP-Zugang-Guide, der dir weiterhelfen kann.
+Mit dem **FTP-Browser** erhältst du alle notwendigen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir den direkten Zugriff auf die Dateien deines Gameservers. Für eine optimale Nutzung empfehlen wir die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP**. Wenn du mit der Nutzung von FTP nicht vertraut bist, empfehlen wir einen Blick in unseren FTP-Zugang-Guide, der dir weiterhelfen kann.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
 **FileZilla:**  FileZilla ist wohl der einfachste und bekannteste FTP-Client. Einfach installieren, starten und in der oberen Leiste deine Zugangsdaten eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem schnellen Klick auf „Verbinden“ bist du direkt am Server angemeldet und kannst die Dateien verwalten.
 
-**WinSCP:**  WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Abkömmlinge des Dateiübertragungsprotokolls FTP) gedacht, kann aber genauso gut mit dem normalen FTP umgehen. Das Programm ist etwas umfangreicher als FileZilla und eignet sich eher für fortgeschrittene Nutzer.
+**WinSCP:**  WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Varianten des Dateiübertragungsprotokolls FTP) gedacht, kann aber genauso gut mit dem normalen FTP umgehen. Das Programm ist etwas umfangreicher als FileZilla und eignet sich eher für fortgeschrittene Nutzer.
 
 
 
@@ -183,9 +183,9 @@ Neben unseren Gameserver-Produkten bieten wir auch 10 inklusive Datenbanken an. 
 
 ### Backups
 
-Unter **Backups** hast du die Möglichkeit, sowohl manuelle als auch automatische Backups für deinen Server und die zugehörige Datenbank zu erstellen. So kannst du deine Daten im Falle von Problemen oder Datenverlust leichter wiederherstellen.
+Unter **Backups** hast du die Möglichkeit, sowohl manuelle als auch automatische Backups für deinen Server und die zugehörige Datenbank zu erstellen. Dies erleichtert die Wiederherstellung deiner Daten im Falle von Problemen oder Datenverlust.
 
-In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden sollen und ob dies täglich oder wöchentlich geschehen soll. Zusätzlich kannst du entscheiden, ob die ältesten Backups bei Bedarf gelöscht werden sollen, beispielsweise wenn der verfügbare Speicherplatz knapp wird.
+In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden sollen und ob dies täglich oder wöchentlich geschehen soll. Zusätzlich kannst du entscheiden, ob bei Bedarf die ältesten Backups gelöscht werden sollen, beispielsweise wenn der verfügbare Speicherplatz knapp wird.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
